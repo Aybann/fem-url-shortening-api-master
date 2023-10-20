@@ -1,0 +1,121 @@
+@media(max-width: 768px){
+  .menuBtn {
+    display: block;
+  }
+  .menu-item {
+    display: none;
+  }
+  .menu-item.open {
+    margin: auto;
+    width: 80%;
+    position: absolute;
+    top: 5rem;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color:  hsl(255, 11%, 22%);
+    color: white;
+    border-radius: 8px;
+  }
+  .navigation-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  .navigation-buttons {
+    border-top: 1px solid hsl(257, 7%, 63%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0rem;
+  }
+  .navigation-buttons button{
+    width: 100%;
+    margin: 0rem;
+    color: white;
+  }
+  .navigation li:hover {
+    color: white;
+  }
+  .main-container, .header-container  {
+    padding-inline: 1.2rem;
+  }
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+  .hero-description h1 {
+    line-height: 1em;
+  }
+  .hero-description p, .hero-description, .hero-image {
+    width: 100%;
+  }
+  form {
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.5rem;
+  }
+  .input-container, .input-button {
+    width: 100%;
+  }
+  .form-container ul li {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .form-container ul li p {
+    padding: 0.5rem 0rem;
+  }
+  .form-container ul li span a{
+    margin-bottom: 0.6rem;
+  }
+  .form-container ul li span {
+    width: 100%;
+    border-top: 1px solid hsl(0, 0%, 75%);
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-head {
+    text-align: center;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+   text-align: center;  
+  }
+  .card img {
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .line {
+    width: .6rem;
+    height: 6rem;
+  }
+  .card:nth-child(3), .card:nth-child(5) {
+    margin-top: 0rem;
+  }
+  .links, .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-logo {
+    margin-bottom: 1rem;
+  }
+  .link-group {
+    margin: 1.4rem 0rem;
+  }
+}
